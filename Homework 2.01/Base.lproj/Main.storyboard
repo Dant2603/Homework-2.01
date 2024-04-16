@@ -17,31 +17,37 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yOg-r5-aHJ">
-                                <rect key="frame" x="16" y="59" width="361" height="274"/>
+                                <rect key="frame" x="16" y="75" width="361" height="364"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="yOg-r5-aHJ" secondAttribute="height" multiplier="361:274" id="SCw-mP-nrK"/>
+                                    <constraint firstAttribute="width" constant="361" id="LcP-gk-VUB"/>
+                                    <constraint firstAttribute="height" constant="364" id="gcf-g5-KG6"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P24-1d-Do5">
-                                <rect key="frame" x="16" y="518" width="361" height="274"/>
+                                <rect key="frame" x="16" y="447" width="361" height="364"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="P24-1d-Do5" secondAttribute="height" multiplier="361:274" id="Ngi-6d-HcS"/>
+                                    <constraint firstAttribute="height" constant="364" id="2iE-wG-03r"/>
+                                    <constraint firstAttribute="width" constant="361" id="TY9-o8-QZZ"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="P24-1d-Do5" secondAttribute="bottom" constant="26" id="3CE-oy-vwS"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="P24-1d-Do5" secondAttribute="trailing" constant="16" id="IT2-lv-qxi"/>
-                            <constraint firstItem="P24-1d-Do5" firstAttribute="width" secondItem="yOg-r5-aHJ" secondAttribute="width" id="Iwr-Ok-pfp"/>
-                            <constraint firstItem="P24-1d-Do5" firstAttribute="height" secondItem="yOg-r5-aHJ" secondAttribute="height" id="KuQ-ke-tZo"/>
-                            <constraint firstItem="P24-1d-Do5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="R3Y-Zb-e7a"/>
-                            <constraint firstItem="yOg-r5-aHJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="dcC-sK-fCE"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yOg-r5-aHJ" secondAttribute="trailing" constant="16" id="hUD-Z2-5qN"/>
-                            <constraint firstItem="yOg-r5-aHJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="hsL-31-nja"/>
+                            <constraint firstItem="P24-1d-Do5" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="74x-rL-Ge7"/>
+                            <constraint firstItem="yOg-r5-aHJ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="GwN-g0-JfN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="P24-1d-Do5" secondAttribute="bottom" constant="7" id="Ubg-7l-pxx"/>
+                            <constraint firstItem="P24-1d-Do5" firstAttribute="top" secondItem="yOg-r5-aHJ" secondAttribute="bottom" constant="8" symbolic="YES" id="gYT-wK-toO"/>
+                            <constraint firstItem="yOg-r5-aHJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="hAg-8g-lkv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="P24-1d-Do5" secondAttribute="trailing" constant="16" id="rTw-Mb-Ixm"/>
+                            <constraint firstItem="yOg-r5-aHJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="ryB-x2-Dfc"/>
+                            <constraint firstItem="yOg-r5-aHJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="tdj-Qm-Z8C"/>
+                            <constraint firstItem="P24-1d-Do5" firstAttribute="width" secondItem="yOg-r5-aHJ" secondAttribute="width" id="tmU-eW-E3R"/>
+                            <constraint firstItem="P24-1d-Do5" firstAttribute="height" secondItem="yOg-r5-aHJ" secondAttribute="height" id="uPe-9d-JEX"/>
+                            <constraint firstItem="P24-1d-Do5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="uc7-Cx-aNe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yOg-r5-aHJ" secondAttribute="trailing" constant="16" id="xNW-Ay-JUs"/>
                         </constraints>
                     </view>
                 </viewController>
